@@ -1,25 +1,26 @@
 {
   "name": "bootstrap-v5",
   "version": "1.0.0",
-  "description": "learning bootstrap v5 from scratch",
+  "description": "learning bootstrap v5 with sass",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss:assets/css"
-   
+  
   },
   "keywords": [
     "bootstrap",
-    "bootstrap",
-    "v5",
-    "learn",
-    "bootstrap"
+    "bootstrap-v5",
+    "sass",
+    "learn-sass",
+    "learn-bootstrap"
   ],
-  "author": "patrick muriungi",
+  "author": "Willie Burns",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "autoprefixer": "^10.2.4",
     "bootstrap": "^5.0.0",
     "postcss-cli": "^8.3.1"
